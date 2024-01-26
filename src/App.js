@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
-import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import HomePage from "./HomePage";
 import AboutPage from "./AboutPage";
-import ProjectPage from "./ProjectPage";
-import SkillPage from "./SkillPage";
 import EducationPage from "./EducationPage";
 import './App.css';
 
