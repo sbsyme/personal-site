@@ -1,6 +1,6 @@
 import React from "react";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import "./Education.css";
+import "../stylesheets/Education.css";
 
 const Education = () => {
   return (
