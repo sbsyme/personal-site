@@ -4,11 +4,10 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import { Route, Routes } from 'react-router-dom';
 import Navbar from "./Navbar";
 import Welcome from "./Welcome";
-import EducationPage from "./Education";
+import Education from "./Education";
 import AboutPage from "./About";
-import me from '../static/me.JPG';
-import "../stylesheets/HomePage.css";
-import ProjectPage from "./Projects";
+import "../stylesheets/Home.css";
+import Projects from "./Projects";
 
 const Home = () => {
 
@@ -20,8 +19,8 @@ const Home = () => {
         </div>
         <Routes>
           <Route path="/" element={<Welcome />} />
-          <Route path="/projects" element={<ProjectPage />} />
-          <Route path="/education" element={<EducationPage />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/education" element={<Education />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>
         <div className="home-page-footer">

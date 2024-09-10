@@ -3,7 +3,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Navbar from "./Navbar";
 import me from '../static/me.JPG';
-import "../stylesheets/HomePage.css";
+import "../stylesheets/Home.css";
 
 const Welcome = () => {
 
