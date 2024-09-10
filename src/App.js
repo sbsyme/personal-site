@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
-import HomePage from "./HomePage";
-import AboutPage from "./AboutPage";
-import EducationPage from "./EducationPage";
-import './App.css';
+import Home from "./components/Home";
+import './stylesheets/App.css';
 
 export default function App() {
 
@@ -31,27 +29,17 @@ export default function App() {
 
   return (
     <>
-    <div className="app-section" id="home">
-        <HomePage />
+      <div className="app-section" id="home">
+        <Home />
       </div>
-      <div className="app-section" id="about">
-        <AboutPage />
-      </div>
-      {/* <div className="app-section" id="skills">
-        <SkillPage />
-      </div> */}
-      {/* <div className="app-section" id="projects">
-        <ProjectPage />
-      </div> */}
-      <div className="app-section">
-        <EducationPage />
-      </div>
+
       {showBackToTopBtn && (
         <button className="btn-back-to-top" onClick={scrollToTop}>
           <span> Back to Top</span>
           <ArrowUpwardIcon />
         </button>
-      )}
-      </>
+      )
+      }
+    </>
   );
 }
